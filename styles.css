@@ -1,0 +1,182 @@
+body, h1, h2, h3, p, ul, li, a, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    padding: 30px 0;
+    background-color: #007BFF;
+    color: #fff;
+  }
+  
+  header .intro {
+    text-align: center;
+  }
+  .about-p{
+    text-align: justify;
+  }
+ .back{
+    background-color:whitesmoke;
+ }
+ .about-p{
+    text-align: justify;
+ }
+ 
+  
+  header img {
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  header h1 {
+    margin-top: 20px;
+    font-size: 36px;
+  }
+  
+  header p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  section {
+    margin-bottom: 50px;
+  }
+  
+  section h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  
+  .project {
+    margin-bottom: 30px;
+  }
+  
+
+    .project img {
+        width:23%;
+        height: 230px;
+        /* max-height: 187px; */
+        object-fit: cover;
+        border-radius: 16px;
+        border: 2px solid black;
+    }
+  
+  
+  .project h3 {
+    margin-top: 10px;
+    font-size: 24px;
+  }
+  
+  .project p {
+    margin-top: 5px;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #007BFF;
+    color: #fff;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 600px) {
+    header img {
+      width: 120px;
+    }
+    
+    header h1 {
+      font-size: 24px;
+    }
+    
+    header p {
+      font-size: 16px;
+    }
+    
+    nav ul {
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+    
+    nav li {
+      margin: 10px 0;
+    }
+    
+    nav a {
+      font-size: 16px;
+    }
+    
+    section h2 {
+      font-size: 24px;
+    }
+    
+    .project img {
+      max-height: 150px;
+    }
+    
+    .project h3 {
+      font-size: 20px;
+    }
+    
+    .project p {
+      font-size: 14px;
+    }
+    
+    .btn {
+      font-size: 14px;
+    }
+    
+    footer p {
+      font-size: 12px;
+    }
+  }
+  
